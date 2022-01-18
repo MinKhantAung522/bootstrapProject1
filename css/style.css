@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.ok{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.carousel-caption {
+    top: 45%;
+    bottom: auto;
+}
+
+.offercolor{
+    filter: opacity(80%);    
+}
+
+.offerh{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.offertext{
+    font-weight: bolder;
+    filter: none;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.offert{
+    text-align: center;
+}
+
+.link-button{
+    text-decoration: none;
+}
+
+
+/* relevant styles */
+.img__wrap {
+    position: relative;
+  }
+  
+  .img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(134, 153, 165, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+  
+  .img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+  .worknumber{
+      height: 200px;
+      width: inherit;
+      background-color: rgb(13, 137, 185);
+  }
+  .popup{
+      position: absolute;
+      right: 0;
+      width: 45px;
+      height: 53px;
+      
+  }
+  .popup2{
+    position: absolute;
+    right: -4px;
+    top: 20px;
+    width: 45px;
+    height: 53px;
+    font-size: small;
+}
+
+.blogeffect{
+    background-color: rgb(13, 137, 185);
+    position: absolute;
+    top: 194px;
+    opacity: 0.8;
+}
+
+.some{
+    text-align:inherit;
+}
+
+::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+hr.new4 {
+    border: 2px solid;
+  }
+
+  tr {
+    line-height: 40px;
+    min-height: 40px;
+    height: 25px;
+ }
+ 
